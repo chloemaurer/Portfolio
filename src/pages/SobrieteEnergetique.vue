@@ -63,13 +63,12 @@
         électrique, et l’adoption d’habitudes numériques plus sobres.
         Les animations et infographies renforcent l’aspect pédagogique et immersif.
       </p>
-      <div class="mt-6 flex justify-center">
-        <a href="https://SobrieteEnergetique.maurerc.etu.mmi-unistra.fr" target="_blank"
-          class="px-6 py-3 bg-purple-900 text-white rounded-2xl hover:bg-purple-600 transition ">
-          Voir le site
-        </a>
+      <div class="text-center py-8  relative z-10">
+        <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
+          ← Retour au portfolio
+        </router-link>
       </div>
-     
+
     </div>
 
     <router-link to="/" class="mt-8 text-gray-300 transition">

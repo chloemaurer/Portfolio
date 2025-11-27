@@ -1,13 +1,13 @@
 <template>
-  <section class="min-h-screen bg-[#000000] text-white py-20 px-6 flex flex-col items-center">
+  <section class="min-h-screen bg-[#001c3d] text-white py-20 px-6 flex flex-col items-center">
     <!-- Animation de pluie -->
-    <div class="fixed inset-0 overflow-hidden -z-10">
+    <div class="absolute inset-0 overflow-hidden z-0">
       <div v-for="i in 25" :key="i" class="raindrop" :style="{
-          left: `${Math.random() * 100}%`,
-          animationDelay: `${Math.random() * 5}s`,
-          animationDuration: `${2 + Math.random() * 3}s`,
-          transform: `scale(${0.6 + Math.random() * 0.8}) rotate(${Math.random() * 10 - 5}deg)`
-        }"></div>
+        left: `${Math.random() * 100}%`,
+        animationDelay: `${Math.random() * 5}s`,
+        animationDuration: `${2 + Math.random() * 3}s`,
+        transform: `scale(${0.6 + Math.random() * 0.8}) rotate(${Math.random() * 10 - 5}deg)`
+      }"></div>
     </div>
     <!-- Titre -->
     <h1 class="text-5xl font-bold mb-8 text-center">Decrypt’eau</h1>
@@ -56,9 +56,11 @@
       </a>
     </div>
 
-    <router-link to="/" class="mt-12 text-gray-300 hover:text-blue-400 transition">
-      ← Retour au portfolio
-    </router-link>
+    <div class="text-center py-8  relative z-10">
+      <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
+        ← Retour au portfolio
+      </router-link>
+    </div>
   </section>
 </template>
 
@@ -72,7 +74,8 @@
   width: 8px;
   height: 16px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(173, 216, 230, 0.5));
-  border-radius: 50% 50% 60% 60% / 70% 70% 40% 40%; /* forme de goutte */
+  border-radius: 50% 50% 60% 60% / 70% 70% 40% 40%;
+  /* forme de goutte */
   opacity: 0.8;
   animation: fall linear infinite;
   filter: blur(0.4px);
@@ -84,9 +87,11 @@
     transform: translateY(0) scale(1) rotate(0deg);
     opacity: 0.8;
   }
+
   90% {
     opacity: 1;
   }
+
   100% {
     transform: translateY(110vh) scale(0.9) rotate(3deg);
     opacity: 0;

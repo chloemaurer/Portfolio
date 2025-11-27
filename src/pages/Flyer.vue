@@ -11,10 +11,14 @@
 
             <h3 class="text-2xl font-semibold text-pink-300 mb-6">Flyer recto / verso</h3>
             <div class="grid md:grid-cols-2 gap-6">
-                <img src="../assets/Flyer/flyer.png" alt="Flyer recto"
-                    class="rounded-xl border border-pink-500/30">
+                <img src="../assets/Flyer/flyer.png" alt="Flyer recto" class="rounded-xl border border-pink-500/30">
                 <img src="../assets/Flyer/flyer verso.png" alt="Flyer verso"
                     class="rounded-xl border border-pink-500/30">
+            </div>
+            <div class="text-center py-8  relative z-10">
+                <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
+                    ← Retour au portfolio
+                </router-link>
             </div>
         </section>
     </div>

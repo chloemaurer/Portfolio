@@ -3,8 +3,9 @@
         <!-- Titre principal -->
         <section class="text-center py-20 px-6 relative z-10">
             <h1 class="text-4xl md:text-5xl font-bold mb-6 text-purple-400 drop-shadow-lg">
-                Infographie — Les grandes découvertes spatiales 🚀
+                Infographie
             </h1>
+            <h2>Les grandes découvertes spatiales 🚀</h2>
             <p class="max-w-3xl mx-auto text-gray-300 leading-relaxed">
                 Cette infographie retrace les moments clés de la conquête spatiale,
                 des premiers pas de Spoutnik jusqu’aux missions modernes vers Mars.
@@ -16,7 +17,7 @@
         </section>
 
         <!-- Présentation du concept -->
-        <section class="py-20 px-6 max-w-6xl mx-auto text-center relative z-10">
+        <section class="py-6 px-6 max-w-6xl mx-auto text-center relative z-10">
             <h2 class="text-3xl font-bold text-purple-400 mb-8">Concept & Design</h2>
             <p class="text-gray-300 max-w-3xl mx-auto mb-12">
                 L’objectif était de vulgariser l’histoire spatiale tout en la rendant visuellement attractive.
@@ -33,9 +34,8 @@
         </section>
 
 
-        <!-- Retour -->
-        <div class="text-center py-10 relative z-10">
-            <router-link to="/" class="text-gray-300 hover:text-purple-400 transition">
+        <div class="text-center py-8  relative z-10">
+            <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
                 ← Retour au portfolio
             </router-link>
         </div>

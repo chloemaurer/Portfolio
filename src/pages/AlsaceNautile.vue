@@ -36,7 +36,7 @@
         <img src="../assets/AlsaceNautile/CharteGraphique.png" alt="Charte graphique" />
       </div>
       <div class="flex justify-center">
-      <img src="../assets/AlsaceNautile/logo.png" alt="logo" >
+        <img src="../assets/AlsaceNautile/logo.png" alt="logo">
       </div>
     </section>
 
@@ -48,7 +48,8 @@
           Création de maquettes web responsives et ergonomiques, pour une navigation fluide sur ordinateur, tablette et
           mobile.
         </p>
-        <img src="../assets/AlsaceNautile/Maquettes.png" alt="Maquettes du site" class="rounded-2xl shadow-lg border border-purple-700 mx-auto" />
+        <img src="../assets/AlsaceNautile/Maquettes.png" alt="Maquettes du site"
+          class="rounded-2xl shadow-lg border border-purple-700 mx-auto" />
       </div>
     </section>
 
@@ -59,18 +60,15 @@
         Déclinaison du logo sur différents supports : textiles, bouteilles, accessoires et goodies pour renforcer la
         cohérence de l’image du club.
       </p>
-      <img src="../assets/AlsaceNautile/Goodies.png" alt="Goodies"  />
+      <img src="../assets/AlsaceNautile/Goodies.png" alt="Goodies" />
     </section>
 
 
     <div class="text-center py-8  relative z-10">
-      <router-link
-      to="/"
-      class="mt-12 text-gray-300 hover:text-blue-400 transition"
-    >
-      ← Retour au portfolio
-    </router-link>
-  </div>
+      <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
+        ← Retour au portfolio
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -150,6 +148,7 @@
   left: 95%;
   animation-delay: 4s;
 }
+
 .bubble:nth-child(8) {
   left: 100%;
   animation-delay: 2s;

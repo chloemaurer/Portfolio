@@ -1,140 +1,92 @@
 <template>
-  <section class="relative min-h-screen bg-gradient-to-br from-[#0b0b0d] to-[#1a1a2e] text-white py-20 px-6 flex flex-col items-center overflow-hidden">
-    <!-- Donuts animés sur toute la page -->
-    <div class="fixed inset-0 overflow-hidden z-0 pointer-events-none">
-      <div
-        v-for="(donut, index) in donuts"
-        :key="index"
-        class="donut absolute"
-        :style="{
-          top: donut.top,
-          left: donut.left,
-          width: donut.size,
-          animationDuration: donut.speed,
-          animationDelay: donut.delay,
-        }"
-      >
-        <img src='../assets/DouxNuts/donut.png' alt="Donut" class="w-full h-full object-contain opacity-20" />
-      </div>
+  <div
+    class="min-h-screen bg-gradient-to-br from-[#0b0b0d] to-[#1a1a2e] text-white px-6 py-16 relative overflow-x-hidden">
+
+    <!-- Donuts côté gauche -->
+    <div class="fixed inset-y-0 left-0 flex flex-col justify-evenly pl-4 pointer-events-none z-0">
+      <img src="../assets/DouxNuts/donut.png" class="side-img" />
+      <img src="../assets/DouxNuts/donut.png" class="side-img ml-16" />
     </div>
 
-    <!-- Contenu principal -->
-    <div class="relative z-10 max-w-6xl">
-      <!-- Titre -->
-      <h1 class="text-5xl font-bold text-purple-400 mb-10 text-center">Doux Nuts 🍩</h1>
-      <p class="text-gray-300 max-w-3xl text-center mx-auto mb-16">
-        Projet marketing réalisé dans le cadre du module STRA3, en équipe avec 
-        Léa Ouadah, Nicolas Deyber, Sarah Heiby et Anaïs Schutz.  
-        L’objectif : créer une marque de donuts artisanaux et concevoir une stratégie complète de communication.
+    <!-- Donuts côté droit -->
+    <div class="fixed inset-y-0 right-0 flex flex-col justify-evenly pr-4 pointer-events-none z-0">
+
+      <img src="../assets/DouxNuts/donut.png" class="side-img mr-10" />
+    </div>
+
+    <!-- Contenu -->
+    <section class="max-w-5xl mx-auto text-center relative z-10">
+      <h1 class="text-5xl font-bold text-purple-400 mb-10">Doux Nuts 🍩</h1>
+
+      <p class="text-gray-300 mb-10 max-w-3xl mx-auto">
+        Projet réalisé dans le cadre du module STRA3, en collaboration avec Léa Ouadah,
+        Nicolas Deyber, Sarah Heiby et Anaïs Schutz.
+        L'objectif : imaginer une marque de donuts artisanaux et créer une stratégie de communication complète.
       </p>
 
-      <!-- Section 1 -->
-      <div class="grid md:grid-cols-2 gap-12 mb-20">
-        <div>
-          <h2 class="text-3xl font-semibold text-purple-300 mb-4">🎯 Cible et concept</h2>
-          <p class="text-gray-300 leading-relaxed">
-            Doux Nuts vise principalement les jeunes entre 15 et 25 ans, passionnés de sucreries et à la recherche
-            d’un produit local, fun et gourmand.  
-            La marque mise sur des donuts faits maison, avec des ingrédients frais et locaux.
-          </p>
-          <ul class="list-disc pl-6 mt-4 text-gray-400 space-y-1">
-            <li>Produits faits maison et colorés 🍓</li>
-            <li>Fabrication locale en Alsace</li>
-            <li>Donuts du mois (-20%)</li>
-            <li>Offres étudiantes et Uber Eats</li>
-          </ul>
-        </div>
-        <div class="flex items-center justify-center">
-          <div class="bg-purple-800/20 border border-purple-600 rounded-2xl p-6 text-center shadow-lg w-80">
-            <h3 class="font-semibold text-purple-300 mb-2">Slogan</h3>
-            <p class="text-gray-200 italic">« Une douceur sucrée pour égayer ta journée »</p>
-          </div>
-        </div>
-      </div>
+      <h2 class="text-3xl font-semibold text-purple-300 mb-6">🎯 Cible et concept</h2>
+      <p class="text-gray-300 max-w-3xl mx-auto mb-6">
+        Doux Nuts vise principalement les jeunes de 15 à 25 ans, à la recherche d’un produit local,
+        fun et gourmand. Les donuts sont faits maison avec des ingrédients frais et locaux.
+      </p>
 
-      <!-- Section 2 -->
-      <div class="mb-20">
-        <h2 class="text-3xl font-semibold text-purple-300 mb-6 text-center">💻 Stratégie digitale</h2>
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-purple-800/20 border border-purple-600 rounded-2xl p-6 shadow-lg">
-            <h3 class="font-semibold text-purple-300 mb-2">Inbound Marketing</h3>
-            <p class="text-gray-400 text-sm">
-              Création de contenu attractif (visuels, vidéos, promotions) pour attirer et fidéliser la clientèle.
-            </p>
-          </div>
-          <div class="bg-purple-800/20 border border-purple-600 rounded-2xl p-6 shadow-lg">
-            <h3 class="font-semibold text-purple-300 mb-2">SEO & SEA</h3>
-            <p class="text-gray-400 text-sm">
-              Optimisation du référencement naturel et campagnes sponsorisées pour plus de visibilité.
-            </p>
-          </div>
-          <div class="bg-purple-800/20 border border-purple-600 rounded-2xl p-6 shadow-lg">
-            <h3 class="font-semibold text-purple-300 mb-2">Réseaux sociaux</h3>
-            <p class="text-gray-400 text-sm">
-              Présence sur Instagram, TikTok et Pinterest, avec un ton fun et coloré.
-            </p>
-          </div>
+      <ul class="list-disc pl-6 text-left max-w-xl mx-auto text-gray-400 space-y-1 mb-12">
+        <li>Donuts artisanaux et colorés</li>
+        <li>Production locale en Alsace</li>
+        <li>Donut du mois (-20%)</li>
+        <li>Offres étudiantes et livraison</li>
+      </ul>
+
+      <h2 class="text-3xl font-semibold text-purple-300 mb-6">💻 Stratégie digitale</h2>
+      <div class="grid md:grid-cols-3 gap-6 mb-12">
+        <div class="bg-purple-800/20 border border-purple-600 rounded-xl p-6">
+          <h3 class="text-purple-300 font-semibold mb-2">Inbound Marketing</h3>
+          <p class="text-gray-400 text-sm">Création de visuels, vidéos et contenus attractifs.</p>
+        </div>
+
+        <div class="bg-purple-800/20 border border-purple-600 rounded-xl p-6">
+          <h3 class="text-purple-300 font-semibold mb-2">SEO & SEA</h3>
+          <p class="text-gray-400 text-sm">Optimisation du référencement et campagnes sponsorisées.</p>
+        </div>
+
+        <div class="bg-purple-800/20 border border-purple-600 rounded-xl p-6">
+          <h3 class="text-purple-300 font-semibold mb-2">Réseaux sociaux</h3>
+          <p class="text-gray-400 text-sm">Présence active sur Instagram, TikTok et Pinterest.</p>
         </div>
       </div>
 
-      <!-- Section 3 -->
-      <div class="mb-20 text-center">
-        <h2 class="text-3xl font-semibold text-purple-300 mb-6">🎨 Identité visuelle</h2>
-        <p class="text-gray-300 max-w-3xl mx-auto mb-8">
-          Couleurs pastel, typographie ronde et ambiance sucrée : l’univers graphique évoque la gourmandise et la convivialité.
-        </p>
-        <img src="" alt="Doux Nuts visuel" class="mx-auto rounded-xl shadow-xl w-full max-w-4xl">
-      </div>
+      <h2 class="text-3xl font-semibold text-purple-300 mb-6">🎨 Identité visuelle</h2>
+      <p class="text-gray-300 max-w-3xl mx-auto mb-8">
+        Une identité pastel, joyeuse et gourmande, avec une typographie ronde et des visuels chaleureux.
+      </p>
 
-      <!-- Lien retour -->
-      <div class="text-center">
-        <router-link
-          to="/"
-          class="text-gray-400 hover:text-purple-300 transition"
-        >
+      <img src="" alt="Identité visuelle Doux Nuts" class="mx-auto rounded-xl shadow-xl w-full max-w-4xl mb-16">
+
+      <!-- Retour -->
+      <div class="text-center py-8  relative z-10">
+        <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
           ← Retour au portfolio
         </router-link>
       </div>
-    </div>
-  </section>
+
+    </section>
+  </div>
 </template>
 
 <script setup>
-import { ref } from "vue"
-
-// Génération de 3 donuts répartis sur toute la page
-const donuts = ref(
-  Array.from({ length: 3 }, () => {
-    const size = 200 + Math.random() * 150 // taille du donut
-    return {
-      size: `${size}px`,
-      speed: `${60 + Math.random() * 40}s`,
-      delay: `${Math.random() * 10}s`,
-      // On ajuste top et left pour que le donut reste dans la page
-      top: `${Math.random() * (100 - (size / window.innerHeight) * 100)}%`,
-      left: `${Math.random() * (100 - (size / window.innerWidth) * 100)}%`,
-    }
-  })
-)
+// Aucun script nécessaire
 </script>
 
 <style scoped>
-@keyframes donutFloat {
-  0% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  50% {
-    transform: translateY(40px) rotate(180deg);
-  }
-  100% {
-    transform: translateY(0px) rotate(360deg);
-  }
+.side-img {
+  width: 140px;
+  opacity: 0.35;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.4));
+  transition: opacity 0.3s ease;
 }
 
-.donut {
-  position: absolute;
-  animation: donutFloat linear infinite;
-  opacity: 0.3;
-  user-select: none;
+.side-img:hover {
+  opacity: 0.6;
 }
 </style>
