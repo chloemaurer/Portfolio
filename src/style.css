@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;800&display=swap');
 
 /* Variables modernes */
 :root {
@@ -103,4 +104,42 @@ h3 { font-size: 1.75rem; }
   a:hover { color: var(--accent-hover); }
   button { background-color: #f9f9f9; color: var(--text); }
   .card { box-shadow: 0 6px 20px rgba(100, 108, 255, 0.2); }
+}
+
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade {
+  animation: fade 0.5s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -11,6 +11,7 @@ import butterbredla from './pages/ButterBredla.vue'
 import flyer from './pages/Flyer.vue'
 import festival from './pages/FestivalHaHa.vue'
 import infographie from './pages/infographie.vue'
+import UnityGame from './pages/Unity.vue'
 
 const routes = [
     { path: '/', component: Home },
@@ -25,12 +26,13 @@ const routes = [
     { path: '/flyer', component: flyer },
     { path: '/festival', component: festival },
     { path: '/infographie', component: infographie },
+    { path: '/unity', component: UnityGame },
 ]
 
 
 const router = createRouter({
     history: createWebHistory(),
     routes,
-})
+});
 
 export default router
