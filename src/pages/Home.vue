@@ -2,11 +2,15 @@
   <div
     class="min-h-screen flex flex-col bg-gradient-to-b from-[#0b0b0d] to-[#1a1a2e] text-white font-inter scroll-smooth">
 
-    <!-- Header -->
     <header
       class="sticky top-0 z-50 bg-purple-900/10 backdrop-blur-md p-6 flex justify-between items-center border-b border-purple-700">
-      <h1 class="text-3xl font-poppins font-bold text-purple-400 hover:scale-105 transition-transform">Chloé Maurer</h1>
-      <nav class="flex gap-6">
+
+      <h1 class="text-3xl font-poppins font-bold text-purple-400 hover:scale-105 transition-transform">
+        Chloé Maurer
+      </h1>
+
+      <!-- Menu desktop -->
+      <nav class="hidden md:flex gap-6 text-lg">
         <a href="#profil" class="hover:text-purple-300 transition-colors">Profil</a>
         <a href="#formation" class="hover:text-purple-300 transition-colors">Formation</a>
         <a href="#experience" class="hover:text-purple-300 transition-colors">Expériences</a>
@@ -14,7 +18,28 @@
         <a href="#projets" class="hover:text-purple-300 transition-colors">Projets</a>
         <a href="#contact" class="hover:text-purple-300 transition-colors">Contact</a>
       </nav>
+
+      <!-- Burger Button -->
+      <button id="burger" class="md:hidden flex flex-col gap-1.5 group">
+        <span class="w-8 h-0.5 bg-purple-300 transition-all group-[.open]:rotate-45 group-[.open]:translate-y-2"></span>
+        <span class="w-8 h-0.5 bg-purple-300 transition-all group-[.open]:opacity-0"></span>
+        <span
+          class="w-8 h-0.5 bg-purple-300 transition-all group-[.open]:-rotate-45 group-[.open]:-translate-y-2"></span>
+      </button>
     </header>
+
+    <!-- Menu mobile coulissant -->
+    <nav id="mobileMenu"
+      class="fixed top-0 right-0 w-64 h-full bg-purple-900/95 backdrop-blur-md text-white p-10 flex flex-col gap-6 text-xl transform translate-x-full transition-transform duration-300 md:hidden z-40">
+
+      <a href="#profil" class="hover:text-purple-300 transition-colors">Profil</a>
+      <a href="#formation" class="hover:text-purple-300 transition-colors">Formation</a>
+      <a href="#experience" class="hover:text-purple-300 transition-colors">Expériences</a>
+      <a href="#competences" class="hover:text-purple-300 transition-colors">Compétences</a>
+      <a href="#projets" class="hover:text-purple-300 transition-colors">Projets</a>
+      <a href="#contact" class="hover:text-purple-300 transition-colors">Contact</a>
+    </nav>
+
 
     <!-- Hero -->
     <section class="flex-1 flex flex-col items-center justify-center text-center px-6 py-24 fade-in">
@@ -25,29 +50,67 @@
     <section id="profil" class="px-4 py-20 max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center fade-in">
       <div>
         <h3 class="text-3xl font-poppins font-bold text-purple-400 mb-4">Profil</h3>
-        <p class="text-gray-300 leading-relaxed">
-          Étudiante dans les métiers du multimédia et de l’internet, avec des aptitudes en gestion de projet,
-          stratégie de communication, graphisme, création numérique et développement web.
-          Je suis autonome, curieuse, flexible et sociable.
+        <p class="text-gray-300 leading-relaxed mb-4">
+          Je suis Chloé Maurer, étudiante en intégration multimédia et développement web. J'adore le développement web
+          et la création de jeux vidéo : voir mes idées se réaliser me rend toujours fière et heureuse.
         </p>
-        <h3 class="text-2xl font-poppins font-bold text-purple-400 mt-6">Langues</h3>
-        <ul class="mt-4 flex flex-wrap gap-4 text-gray-300">
+        <p class="text-gray-300 leading-relaxed mb-4">
+          J'aime inventer des jeux, créer leurs règles, imaginer des énigmes et concevoir des expériences interactives.
+          C’est pour cette raison que je suis venue au Québec pour ma troisième année, afin de découvrir comment créer
+          des jeux plus immersifs.
+        </p>
+        <p class="text-gray-300 leading-relaxed">
+          Plus tard, je souhaite m’orienter soit vers le développement de jeux vidéo, soit vers le développement web,
+          pour continuer à créer et partager des expériences qui me passionnent.
+        </p>
+
+
+      </div>
+
+      <div class="flex justify-center md:justify-end">
+        <div class="w-60 h-60 rounded-2xl bg-purple-700/20 border border-purple-600 flex items-center justify-center">
+          <img src="../assets/photo.jpg" alt="Photo Chloé Maurer" class="rounded-2xl object-cover">
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col md:flex-row items-center justify-center px-6 py-16 bg-purple-900/10 fade-in gap-8">
+      <!-- Langues -->
+      <div class="flex-0.5 text-center">
+        <h3 class="text-3xl font-poppins font-bold text-purple-400 mb-4">Langues</h3>
+        <ul class="flex justify-center gap-4 text-gray-300 font-semibold">
           <li>Français</li>
           <li>Anglais</li>
           <li>Allemand</li>
         </ul>
       </div>
-      <div class="flex justify-center md:justify-end">
-        <div class="w-60 h-60 rounded-2xl bg-purple-700/20 border border-purple-600 flex items-center justify-center">
-          <img src="../assets/photo.jpg" alt="Photo Chloé Maurer" class="rounded-2xl  object-cover">
+
+      <!-- Séparateur vertical -->
+      <div class="hidden md:block w-px bg-purple-400 h-32"></div>
+
+      <!-- Réseaux -->
+      <div class="flex-0.5 text-center">
+        <h3 class="text-3xl font-poppins font-bold text-purple-400 mb-4">Réseaux</h3>
+        <div class="flex flex-col gap-2 text-gray-300">
+          <a href="https://github.com/chloemaurer" target="_blank"
+            class="hover:text-purple-300 transition-colors font-semibold">
+            <span class="text-purple-400">•</span> GitHub — github.com/chloemaurer
+          </a>
+          <a href="https://www.linkedin.com/in/chloe-maurer/" target="_blank"
+            class="hover:text-purple-300 transition-colors font-semibold">
+            <span class="text-purple-400">•</span> LinkedIn — Chloé Maurer
+          </a>
         </div>
       </div>
     </section>
 
+
+
+
     <!-- Télécharger mon CV -->
     <section id="cv" class="px-6 py-20 text-center border-t border-purple-700 fade-in">
       <h3 class="text-3xl font-poppins font-bold text-purple-400 mb-6">Mon CV</h3>
-      <p class="text-gray-300 mb-8">Télécharge mon CV en cliquant sur le bouton ci-dessous 👇</p>
+      <p class="text-gray-300 mb-8">Télécharge mon CV en cliquant sur le bouton ci-dessous</p>
       <a href="/cv-chloe-maurer.pdf" download="Chloe_Maurer_CV.pdf"
         class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-purple-500 rounded-2xl hover:scale-105 transition-transform text-white font-semibold">
         Télécharger mon CV
@@ -64,31 +127,35 @@
     </section>
 
     <!-- Expériences -->
-    <section id="experience" class="px-6 py-20 max-w-6xl mx-auto fade-in">
+    <!---<section id="experience" class="px-6 py-20 max-w-6xl mx-auto fade-in">
       <h3 class="text-3xl font-poppins font-bold text-purple-400 text-center mb-12">Expériences</h3>
       <ul class="space-y-6 text-gray-300  text-center">
         <li>
           <p class="font-bold text-purple-400">Tutrice — Développement Web (2025)</p> Cours de tutorat pour étudiants.
         </li>
         <li>
-          <p class="font-bold text-purple-400">Stage — Électricité de Strasbourg (2025)</p> Réalisation d’un Motion Design et
+          <p class="font-bold text-purple-400">Stage — Électricité de Strasbourg (2025)</p> Réalisation d’un Motion
+          Design et
           interface interactive.
         </li>
         <li>
-          <p class="font-bold text-purple-400">Stage BAFA</p> Encadrement de jeunes enfants, animation en camp de vacances, bivouac.
+          <p class="font-bold text-purple-400">Stage BAFA</p> Encadrement de jeunes enfants, animation en camp de
+          vacances, bivouac.
         </li>
         <li>
-          <p class="font-bold text-purple-400">Job d’été — Boulangerie Maulbecker Maurer (2024)</p> Accueil clients, prise de
+          <p class="font-bold text-purple-400">Job d’été — Boulangerie Maulbecker Maurer (2024)</p> Accueil clients,
+          prise de
           commande, gestion caisse.
         </li>
         <li>
-          <p class="font-bold text-purple-400">Projet personnel — Jeu vidéo (2022)</p> Codage en C et apprentissage en autonomie.
+          <p class="font-bold text-purple-400">Projet personnel — Jeu vidéo (2022)</p> Codage en C et apprentissage en
+          autonomie.
         </li>
       </ul>
-    </section>
+    </section> -->
 
     <!-- Compétences et Loisirs -->
-    <section id="competences" class="px-6 py-20 bg-purple-900/10 fade-in">
+    <section id="competences" class="px-6 py-20  fade-in">
       <h3 class="text-3xl font-poppins font-bold text-purple-400 text-center mb-12">Compétences</h3>
       <div class="flex flex-wrap justify-center gap-4 mb-12">
         <span
@@ -120,6 +187,104 @@
           class="px-4 py-2 bg-purple-700/20 border border-purple-600 rounded-full hover:scale-105 transition-transform">Cuisine</span>
       </div>
     </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="px-6 py-20  bg-purple-900/10 fade-in">
+      <h3 class="text-3xl font-poppins font-bold pb-16 text-purple-400 text-center">
+        Compétences
+      </h3>
+
+      <!-- Grille : 3 colonnes + 2 séparateurs -->
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10 text-center">
+
+
+        <!-- Bloc : Dév Web -->
+        <div class="flex flex-col items-center">
+          <h4 class="text-xl font-semibold text-purple-400 mb-6">Développement Web</h4>
+
+          <div class="grid grid-cols-4 gap-4 place-items-center w-full">
+            <img src="../assets/competences/html.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/css.png"
+              class="w-8 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/js.png"
+              class="w-10 h-10 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/php.png"
+              class="h-10 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+
+            <img src="../assets/competences/linux.png"
+              class="h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/twig.png"
+              class="h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/bootsrap.png"
+              class="w-15 h-15 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/wordpress.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+
+            <img src="../assets/competences/sass.png"
+              class="h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/tailwind.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/unity.png"
+              class="h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+          </div>
+        </div>
+
+
+        <!-- Séparateur 1 -->
+        <div class="hidden md:flex justify-center">
+          <div class="w-px bg-purple-400 h-48"></div>
+        </div>
+
+
+        <!-- Bloc : Création Numérique -->
+        <div class="flex flex-col items-center ">
+          <h4 class="text-xl font-semibold text-purple-400 mb-6">Création Numérique</h4>
+
+          <div class="grid grid-cols-4 gap-4 place-items-center w-full">
+            <img src="../assets/competences/photoshop.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/illustrator.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/aftereffect.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/indesign.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+
+            <img src="../assets/competences/figma.png"
+              class="h-10 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/davinci.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/canva.jpg"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/blender.png"
+              class="h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+          </div>
+        </div>
+
+
+        <!-- Séparateur 2 -->
+        <div class="hidden md:flex justify-center">
+          <div class="w-px bg-purple-400 h-48"></div>
+        </div>
+
+
+        <!-- Bloc : Autres -->
+        <div class="flex flex-col items-center ">
+          <h4 class="text-xl font-semibold text-purple-400 mb-6">Autres</h4>
+
+          <div class="grid gap-4 place-items-center w-full">
+            <img src="../assets/competences/Gantt.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+            <img src="../assets/competences/miro.png"
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
 
     <!-- Projets avec image au hover -->
     <section id="projets" class="px-6 py-20 max-w-6xl mx-auto fade-in">
@@ -339,7 +504,7 @@ const devProjects = [
     description: "Jeu vidéo Unity basé sur un Escape Game dans un univers Inca.",
     tech: "Unity / C# / Blender",
     link: "",
-    cover: "/src/assets/projects/escape-inca.jpg"
+    cover: "src/assets/Escapegame.png"
   }
 ];
 
@@ -387,6 +552,7 @@ const marketingProjects = [
 
 @keyframes fade {
   0% {
+    
     opacity: 0;
     transform: translateY(10px);
   }
@@ -396,4 +562,6 @@ const marketingProjects = [
     transform: translateY(0);
   }
 }
+
+
 </style>
