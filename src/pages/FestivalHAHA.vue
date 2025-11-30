@@ -15,14 +15,10 @@
                 entièrement dédié à l’humour, à la musique et à la bonne humeur !
                 Découvrez le site officiel en cliquant sur le lien ci-dessous :
             </p>
-            <a href="https://dev.timmatane.ca/etudiants/2023/maurerc/FestivalHA-HA-/" target="_blank"
-                class="text-purple-300 font-semibold hover:underline">
-                Visitez le site officiel du Festival du Haha
-            </a>
         </section>
 
         <!-- Présentation du concept -->
-        <section class="py-20 px-6 max-w-6xl mx-auto text-center relative z-10">
+        <section class=" px-6 max-w-6xl mx-auto text-center relative z-10">
             <h2 class="text-3xl font-bold text-purple-400 mb-8">Concept & Design</h2>
             <p class="text-gray-300 max-w-3xl mx-auto mb-12">
                 L’objectif était de créer une identité à la fois humoristique et festive, avec des couleurs vives,
@@ -46,8 +42,13 @@
                 Le <span class="text-purple-300 font-semibold">Festival du Haha</span> est une invitation à rire,
                 chanter et coder avec le sourire 😄
             </p>
+            <a href="https://dev.timmatane.ca/etudiants/2023/maurerc/FestivalHA-HA-/" target="_blank"
+                rel="noopener noreferrer"
+                class=" inline-block text-gray-300 bg-blue-800/40 py-4 px-8 mt-8 rounded-2xl text-center shadow-lg transition">
+                🔗 Festival du HA! HA!
+            </a>
         </section>
-
+        
         <!-- Retour -->
         <div class="text-center py-8  relative z-10">
             <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
@@ -57,9 +58,7 @@
     </div>
 </template>
 
-<script setup>
-// Page statique — aucune logique dynamique
-</script>
+
 
 <style scoped>
 .ribbon {

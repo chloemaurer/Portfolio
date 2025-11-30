@@ -42,9 +42,7 @@
     </div>
 </template>
 
-<script setup>
-// Page statique — aucune logique dynamique
-</script>
+
 
 <style scoped>
 .ribbon {

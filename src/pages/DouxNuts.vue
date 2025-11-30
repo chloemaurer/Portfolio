@@ -60,7 +60,10 @@
         Une identité pastel, joyeuse et gourmande, avec une typographie ronde et des visuels chaleureux.
       </p>
 
-      <img src="" alt="Identité visuelle Doux Nuts" class="mx-auto rounded-xl shadow-xl w-full max-w-4xl mb-16">
+
+      <iframe id="pdfFrame" src="src/assets/DouxNuts/Douxnuts.pdf" width="100%" height="50px"
+        class="rounded-lg"></iframe>
+
 
       <!-- Retour -->
       <div class="text-center py-8  relative z-10">
@@ -73,9 +76,8 @@
   </div>
 </template>
 
-<script setup>
-// Aucun script nécessaire
-</script>
+
+
 
 <style scoped>
 .side-img {

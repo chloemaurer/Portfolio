@@ -76,6 +76,10 @@
         <img src="../assets/CUEJ/Maquette.png" alt="Maquettes" class="rounded-lg shadow-md w-full" />
       </div>
     </div>
+    <a href="https://www.cuej.info/mini-sites/ruraux2024" target="_blank" rel="noopener noreferrer"
+      class=" inline-block text-gray-300 bg-blue-800/40 py-4 px-8 rounded-2xl text-center shadow-lg transition">
+      🔗 Lien vers le Site du CUEJ
+    </a>
 
     <div class="text-center py-8  relative z-10">
       <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
@@ -85,7 +89,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup >
 import { ref } from "vue";
 
 // 🌷 Positionnement des fleurs
@@ -95,6 +99,8 @@ const flowers = ref([
   { id: 3, top: "90%", left: "30%", size: "70px", delay: "3s", duration: "9s" },
   { id: 4, top: "55%", left: "65%", size: "100px", delay: "4s", duration: "10s" }
 ]);
+
+
 </script>
 
 <style scoped>

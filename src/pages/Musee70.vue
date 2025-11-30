@@ -38,8 +38,8 @@
         L’objectif était de créer une expérience web dynamique et fidèle à l’énergie visuelle des années 70.
       </p>
       <a href="https://projet4.timmatane.ca/2025/tp2/eq1/index.html" target="_blank" rel="noopener noreferrer"
-        class="inline-block text-gray-300  transition">
-        Lien vers le site du musée
+        class="inline-block text-gray-300  bg-blue-800/40 py-4 px-8 rounded-2xl text-center shadow-lg transition">
+        🔗 Lien vers le site du musée
       </a>
     </section>
 
@@ -51,8 +51,8 @@
         Ce développement m’a permis de travailler la logique de jeu, la physique et la gestion des collisions.
       </p>
       <a href="https://projet4.timmatane.ca/2025/tp2/eq1/jeu/index.html" target="_blank" rel="noopener noreferrer"
-        class=" inline-block text-gray-300  transition">
-        Lien vers le jeu Unity
+        class=" inline-block text-gray-300 bg-blue-800/40 py-4 px-8 rounded-2xl text-center shadow-lg transition">
+        🔗 Musee des années 70
       </a>
     </section>
 
@@ -72,6 +72,7 @@ const vinyls = [
   { id: 4, top: '75%', left: '80%', size: '110px', speed: '11s', delay: '3s' },
 ];
 </script>
+
 
 <style scoped>
 .vinyl {

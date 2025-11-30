@@ -15,7 +15,7 @@ export const devProjects: Project[] = [
     description: "Développement d’un jeu 3D avec thèmes évolutifs par niveau.",
     tech: "Unity / C# / Blender",
     link: "/unity",
-    cover: "src/assets/Unity/coverjeuunity.jpg",
+    cover: "src/assets/coverjeuunity.jpg",
     date: "mars 2025",
   },
   {
@@ -79,7 +79,7 @@ export const graphicProjects: Project[] = [
   {
     title: "Charte graphique Alsace Nautile Club",
     description: "Logo, charte graphique et supports audiovisuels.",
-    tech: "Illustrator / Premiere Pro / Photoshop",
+    tech: "Illustrator / Figma / Photoshop",
     link: "/alsace-nautile",
     cover: "src/assets/AlsaceNautile/cover.png",
     date: "Octobre 2024",
@@ -87,7 +87,7 @@ export const graphicProjects: Project[] = [
   {
     title: "Site sobriété énergétique",
     description: "Site interactif de sensibilisation.",
-    tech: "UX / Stratégie / Design web",
+    tech: "Motion Design / Design web",
     link: "/sobriete-energetique",
     cover: "src/assets/SobEnergetique/cover.png",
     date: "Janvier 2025",
@@ -95,7 +95,7 @@ export const graphicProjects: Project[] = [
   {
     title: "CinéStar",
     description: "Refonte identité visuelle et supports marketing.",
-    tech: "Illustrator / Photoshop / Figma",
+    tech: "Illustrator / Figma",
     link: "/cine",
     cover: "src/assets/cineStar/cover.jpeg",
     date: "Juin 2024",
@@ -103,7 +103,7 @@ export const graphicProjects: Project[] = [
   {
     title: "Escape Bredele",
     description: "Concept mêlant escape game et atelier cuisine.",
-    tech: "Illustrator / Photoshop / Figma",
+    tech: "Illustrator / Photoshop / Figma / Wordpress",
     link: "/bredla",
     cover: "src/assets/Butterbredla/cover.webp",
     date: "Juin 2024",
@@ -111,7 +111,7 @@ export const graphicProjects: Project[] = [
   {
     title: "Festival Au Bonheur des Mômes",
     description: "Conception d’un flyer pour un événement culturel.",
-    tech: "Illustrator / Photoshop / InDesign",
+    tech: "Illustrator / Photoshop",
     link: "/flyer",
     cover: "src/assets/Flyer/flyer.png",
     date: "Janvier 2024",
@@ -119,7 +119,7 @@ export const graphicProjects: Project[] = [
   {
     title: "Infographie sur l'Espace",
     description: "Infographie éducative sur l’exploration spatiale.",
-    tech: "Illustrator / Photoshop",
+    tech: "Illustrator",
     link: "/infographie",
     cover: "src/assets/infographie/coveretoile.webp",
     date: "Novembre 2024",

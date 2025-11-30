@@ -72,9 +72,7 @@
   </div>
 </template>
 
-<script setup>
-// Rien de spécial ici, tout est statique pour le moment
-</script>
+
 
 <style scoped>
 /* Bulles animées pour l’ambiance sous-marine */
