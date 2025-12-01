@@ -61,7 +61,7 @@
       </p>
 
 
-      <iframe id="pdfFrame" src="src/assets/DouxNuts/Douxnuts.pdf" width="100%" height="50px"
+      <iframe id="pdfFrame" src="src/assets/DouxNuts/Douxnuts.pdf" width="100%" height="550px"
         class="rounded-lg"></iframe>
 
 

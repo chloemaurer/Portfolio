@@ -63,17 +63,14 @@
         électrique, et l’adoption d’habitudes numériques plus sobres.
         Les animations et infographies renforcent l’aspect pédagogique et immersif.
       </p>
-      <div class="text-center py-8  relative z-10">
-        <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
-          ← Retour au portfolio
-        </router-link>
-      </div>
-
+      
     </div>
-
-    <router-link to="/" class="mt-8 text-gray-300 transition">
-      ← Retour au portfolio
-    </router-link>
+    
+    <div class="text-center py-8  relative z-10">
+      <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
+        ← Retour au portfolio
+      </router-link>
+    </div>
   </section>
 </template>
 

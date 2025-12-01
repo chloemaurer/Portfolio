@@ -55,13 +55,13 @@
                 <img src="../assets/Butterbredla/Réservation.png" alt="Maquette supplémentaire 2"
                     class="rounded-xl border ">
 
-                <div class="text-center py-8  relative z-10">
-                    <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
-                        ← Retour au portfolio
-                    </router-link>
                 </div>
+            </section>
+            <div class="text-center py-8  relative z-10">
+                <router-link to="/" class="mt-12 text-purple-700 hover:text-blue-400 transition">
+                    ← Retour au portfolio
+                </router-link>
             </div>
-        </section>
     </div>
 </template>
 

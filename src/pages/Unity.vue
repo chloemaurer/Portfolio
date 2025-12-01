@@ -17,7 +17,7 @@
 
         <!-- Description du niveau -->
         <section>
-            <div class="max-w-6xl mx-auto py-20 px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="max-w-6xl mx-auto py-20 px-6 flex justify-center gap-12 items-center text-center w-180 relative z-10">
                 <div>
                     <h2 class="text-3xl font-bold text-purple-400 mb-4">Objectif du niveau</h2>
                     <p class="text-gray-300 leading-relaxed mb-4">
@@ -33,8 +33,8 @@
                         <li>Plateformes colorées pour valider les objectifs</li>
                         <li>Ambiance sonore et musicale immersive</li>
                     </ul>
-                </div>
 
+                </div>
             </div>
         </section>
 
@@ -49,8 +49,8 @@
                 </p>
 
                 <div class="grid md:grid-cols-2 gap-10">
-                    <div class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md">
-                        <h3 class="text-xl font-semibold text-purple-300 mb-3">🛠️ Développement</h3>
+                    <div class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md">
+                        <h3 class="text-xl font-semibold text-purple-300 mb-3">Développement</h3>
                         <ul class="text-gray-300 list-disc list-inside space-y-2">
                             <li>Scripts du bateau</li>
                             <li>Gestion des balles et détection des couleurs</li>
@@ -59,8 +59,8 @@
                         </ul>
                     </div>
 
-                    <div class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md">
-                        <h3 class="text-xl font-semibold text-purple-300 mb-3">🎨 Création d’assets</h3>
+                    <div class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md">
+                        <h3 class="text-xl font-semibold text-purple-300 mb-3">Création d’assets</h3>
                         <ul class="text-gray-300 list-disc list-inside space-y-2">
                             <li>Éléments du décor des îles</li>
                             <li>Objets interactifs</li>
@@ -70,8 +70,8 @@
                     </div>
 
                     <div
-                        class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md md:col-span-2">
-                        <h3 class="text-xl font-semibold text-purple-300 mb-3">🎵 Musique & Sound Design</h3>
+                        class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md md:col-span-2">
+                        <h3 class="text-xl font-semibold text-purple-300 mb-3">Musique & Sound Design</h3>
                         <p class="text-gray-300 leading-relaxed">
                             J’ai également composé la musique du niveau et intégré plusieurs effets sonores pour rendre
                             l’expérience plus immersive.
@@ -94,41 +94,41 @@
 
                    
                     <div
-                        class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
+                        class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_palmier_grand.fbx" height="260px" />
                     </div>
 
                    
                     <div
-                        class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
+                        class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_palmier_pencher.fbx"height="260px"
                             alt="FBX 2"/>
                     </div>
 
                     
                     <div
-                        class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
+                        class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_palmier_petit.fbx"height="260px"
                             alt="FBX 3"/>
                     </div>
 
                     
                     <div
-                        class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
+                        class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_palmier_tordu.fbx"height="260px"
                             alt="FBX 4"/>
                     </div>
 
                     
                     <div
-                        class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
+                        class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_parasol_.fbx"height="260px"
                             alt="FBX 5"/>
                     </div>
 
                     
                     <div
-                        class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
+                        class="bg-purple-400/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_transat.fbx"height="260px"
                             alt="FBX 6"/>
                     </div>
