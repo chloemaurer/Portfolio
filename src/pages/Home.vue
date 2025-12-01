@@ -191,33 +191,29 @@
         Compétences
       </h3>
 
-      <!-- Grille : 3 colonnes + 2 séparateurs -->
-      <div class="max-w-8xl mx-10 grid grid-cols-[1fr_0.5fr_1fr_0.5fr_1fr] gap-4 text-center">
-
+      <!-- Grille responsive -->
+      <div class="max-w-8xl mx-4 md:mx-10 grid grid-cols-1 md:grid-cols-[1fr_0.5fr_1fr_0.5fr_1fr] gap-8 text-center">
 
         <!-- Bloc : Dév Web -->
         <div class="flex flex-col items-center">
           <h4 class="text-xl font-semibold text-purple-400 mb-6">Développement Web</h4>
-
-          <div class="grid grid-cols-4 gap-4 place-items-center w-full">
+          <div class="grid grid-cols-3 sm:grid-cols-4 gap-4 place-items-center w-full">
             <img src="../assets/competences/html.png"
               class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/css.png"
-              class="w-8 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+              class=" h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/js.png"
-              class="w-10 h-10 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+              class=" hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/php.png"
               class="h-10 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
-
             <img src="../assets/competences/linux.png"
               class="h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/twig.png"
               class="h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/bootsrap.png"
-              class="w-15 h-15 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
+              class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/wordpress.png"
               class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
-
             <img src="../assets/competences/sass.png"
               class="h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/tailwind.png"
@@ -227,18 +223,15 @@
           </div>
         </div>
 
-
         <!-- Séparateur 1 -->
         <div class="hidden md:flex justify-center">
           <div class="w-px bg-purple-400 h-48"></div>
         </div>
 
-
         <!-- Bloc : Création Numérique -->
-        <div class="flex flex-col items-center ">
+        <div class="flex flex-col items-center">
           <h4 class="text-xl font-semibold text-purple-400 mb-6">Création Numérique</h4>
-
-          <div class="grid grid-cols-4 gap-4 place-items-center w-full">
+          <div class="grid grid-cols-3 sm:grid-cols-4 gap-4 place-items-center w-full">
             <img src="../assets/competences/photoshop.png"
               class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/illustrator.png"
@@ -247,7 +240,6 @@
               class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/indesign.png"
               class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
-
             <img src="../assets/competences/figma.png"
               class="h-10 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/davinci.png"
@@ -259,18 +251,15 @@
           </div>
         </div>
 
-
         <!-- Séparateur 2 -->
         <div class="hidden md:flex justify-center">
           <div class="w-px bg-purple-400 h-48"></div>
         </div>
 
-
         <!-- Bloc : Autres -->
-        <div class="flex flex-col items-center ">
+        <div class="flex flex-col items-center">
           <h4 class="text-xl font-semibold text-purple-400 mb-6">Autres</h4>
-
-          <div class="grid gap-4 place-items-center w-full">
+          <div class=" sm:grid-cols-3 gap-4 place-items-center w-full">
             <img src="../assets/competences/Gantt.png"
               class="w-12 h-12 hover:scale-110 hover:drop-shadow-[0_0_10px_#a855f7] transition-all duration-300">
             <img src="../assets/competences/miro.png"
@@ -279,6 +268,7 @@
         </div>
 
       </div>
+
     </section>
 
 

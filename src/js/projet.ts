@@ -15,7 +15,7 @@ export const devProjects: Project[] = [
     description: "Développement d’un jeu 3D avec thèmes évolutifs par niveau.",
     tech: "Unity / C# / Blender",
     link: "/unity",
-    cover: "src/assets/coverjeuunity.jpg",
+    cover: "src/assets/unity/coverjeuunity.jpg",
     date: "mars 2025",
   },
   {
@@ -53,6 +53,15 @@ export const devProjects: Project[] = [
     link: "/festival",
     cover: "src/assets/FestivalHaHa/cover.jpeg",
     date: "Aout 2025",
+  },
+  {
+    title: "Web Jam",
+    description:
+      "Jeu coder en 24h",
+    tech: "JS / html / CSS",
+    link: "",
+    cover: "",
+    date: "Octobre 2025",
   },
   {
     title: "Borne interactive - Sainte Félicité",

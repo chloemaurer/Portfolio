@@ -90,7 +90,7 @@
                 Le jeu est disponible en version WebGL. Tu peux accéder directement au niveau via le lien ci-dessous.
             </p>
 
-            <a href="/JeuxUnityTest/index.html" target="_blank"
+            <a href="https://dev.timmatane.ca/etudiants/2023/maurerc/JeuxUnity3/" target="_blank"
                 class="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-500 rounded-xl text-white font-semibold text-lg transition">
                 🎮 Lancer le jeu Unity
             </a>
