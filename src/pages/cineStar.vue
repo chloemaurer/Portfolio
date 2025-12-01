@@ -15,19 +15,19 @@
             <h3 class="text-2xl font-semibold text-yellow-300 mb-6">Maquettes du site</h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 ">
                 <!-- Maquettes mobile -->
-                <img src="../assets/cineStar/Phone  Page d'accueil couleur.png" alt="Maquette mobile accueil"
+                <img src="../assets/cineStar/PhoneAccueil.png" alt="Maquette mobile accueil"
                     class="rounded-xl border border-purple-500/40 shadow-lg w-32 hover:scale-105 transition duration-300">
-                <img src="../assets/cineStar/Phone  Page description film couleur.png" alt="Maquette mobile film"
+                <img src="../assets/cineStar/PhoneDescription.png" alt="Maquette mobile film"
                     class="rounded-xl border border-purple-500/40 shadow-lg w-32 hover:scale-105 transition duration-300">
-                <img src="../assets/cineStar/Phone  Page infos couleur.png" alt="Maquette mobile infos"
+                <img src="../assets/cineStar/PhoneInfos.png" alt="Maquette mobile infos"
                     class="rounded-xl border border-purple-500/40 shadow-lg w-32 hover:scale-105 transition duration-300">
 
                 <!-- Maquettes desktop -->
-                <img src="../assets/cineStar/Desktop - Accueil couleur.png" alt="Maquette desktop accueil"
+                <img src="../assets/cineStar/Accueil.png" alt="Maquette desktop accueil"
                     class="rounded-xl border border-purple-500/40 shadow-lg w-56 hover:scale-105 transition duration-300">
-                <img src="../assets/cineStar/Desktop - Description Film couleur.png" alt="Maquette desktop film"
+                <img src="../assets/cineStar/Description.png" alt="Maquette desktop film"
                     class="rounded-xl border border-purple-500/40 shadow-lg w-56 hover:scale-105 transition duration-300">
-                <img src="../assets/cineStar/Desktop - Infos Pratiques couleur.png" alt="Maquette desktop infos"
+                <img src="../assets/cineStar/Infos.png" alt="Maquette desktop infos"
                     class="rounded-xl border border-purple-500/40 shadow-lg w-56 hover:scale-105 transition duration-300">
             </div>
 

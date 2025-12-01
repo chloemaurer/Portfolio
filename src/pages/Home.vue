@@ -1,4 +1,5 @@
 <template>
+  
   <div
     class="min-h-screen flex flex-col bg-gradient-to-b from-[#0b0b0d] to-[#1a1a2e] text-white font-inter scroll-smooth">
 
@@ -385,11 +386,11 @@
       © 2025 Chloé Maurer
     </footer>
 
+    
   </div>
 </template>
 
-
-<script setup lang="ts">
+<script setup>
 
 import { ref, onMounted } from "vue";
 import { devProjects, graphicProjects, marketingProjects } from "../js/projet.js";

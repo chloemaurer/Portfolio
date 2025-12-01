@@ -81,7 +81,7 @@
             </div>
         </section>
         <!-- Section : Assets 3D -->
-        <section class="py-20 px-6 relative z-10">
+        <!-- <section class="py-20 px-6 relative z-10">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-3xl font-bold text-purple-400 mb-6 text-center">Assets 3D – Fichiers FBX</h2>
                 <p class="text-gray-300 max-w-3xl mx-auto text-center leading-relaxed mb-12">
@@ -89,44 +89,44 @@
                     Ils sont utilisés pour composer le décor du niveau, le bateau et les objets interactifs.
                 </p>
 
-                <!-- Grille des fichiers -->
+                
                 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                    <!-- Fichier 1 -->
+                   
                     <div
                         class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_palmier_grand.fbx" height="260px" />
                     </div>
 
-                    <!-- Fichier 2 -->
+                   
                     <div
                         class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_palmier_pencher.fbx"height="260px"
                             alt="FBX 2"/>
                     </div>
 
-                    <!-- Fichier 3 -->
+                    
                     <div
                         class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_palmier_petit.fbx"height="260px"
                             alt="FBX 3"/>
                     </div>
 
-                    <!-- Fichier 4 -->
+                    
                     <div
                         class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_palmier_tordu.fbx"height="260px"
                             alt="FBX 4"/>
                     </div>
 
-                    <!-- Fichier 5 -->
+                    
                     <div
                         class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_parasol_.fbx"height="260px"
                             alt="FBX 5"/>
                     </div>
 
-                    <!-- Fichier 6 -->
+                    
                     <div
                         class="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-purple-700 shadow-md flex flex-col items-center">
                         <FbxViewer src="/assets/unity/12104_autosave.fbx_transat.fbx"height="260px"
@@ -135,7 +135,7 @@
 
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- Lien vers le jeu -->
         <section class="text-center py-20 px-6 relative z-10">
@@ -164,9 +164,9 @@
     </div>
 </template>
 
-<script setup>
+<!--<script setup>
 import FbxViewer from '../components/FbxViewer.vue';
-</script>
+</script>-->
 
 <style scoped>
 /* Vagues animées */

@@ -1,3 +1,4 @@
+/*
 declare module 'three/examples/jsm/loaders/FBXLoader.js' {
   import * as THREE from 'three';
   export class FBXLoader {
@@ -22,3 +23,4 @@ declare module 'three/examples/jsm/controls/OrbitControls.js' {
     dispose(): void;
   }
 }
+*/

@@ -27,11 +27,11 @@
     <div class="max-w-5xl mb-20 text-center">
       <h2 class="text-2xl font-semibold text-blue-200 mb-8">Outils utilisés 💧</h2>
       <div class="flex flex-wrap justify-center gap-8">
-        <img src="../assets/Decrypt'eau/PHPstorm.png" alt="PhpStorm" class="w-16 h-16">
-        <img src="../assets/Decrypt'eau/git.png" alt="Git" class=" h-16">
-        <img src="../assets/Decrypt'eau/Gitlab.png" alt="GitLab" class="w-16 h-16">
-        <img src="../assets/Decrypt'eau/SQLite.png" alt="SQLite" class="w-16 h-16">
-        <img src="../assets/Decrypt'eau/Symfony.png" alt="Symfony" class="w-16 h-16">
+        <img src="../assets/Decrypteau/PHPstorm.png" alt="PhpStorm" class="w-16 h-16">
+        <img src="../assets/Decrypteau/git.png" alt="Git" class=" h-16">
+        <img src="../assets/Decrypteau/Gitlab.png" alt="GitLab" class="w-16 h-16">
+        <img src="../assets/Decrypteau/SQLite.png" alt="SQLite" class="w-16 h-16">
+        <img src="../assets/Decrypteau/Symfony.png" alt="Symfony" class="w-16 h-16">
       </div>
     </div>
 
@@ -39,12 +39,12 @@
     <div class="max-w-5xl mb-16 text-center">
       <h2 class="text-2xl font-semibold text-blue-200 mb-8">Langages utilisés 🌍</h2>
       <div class="flex flex-wrap justify-center gap-8">
-        <img src="../assets/Decrypt'eau/html.png" alt="HTML" class="w-16 h-16">
-        <img src="../assets/Decrypt'eau/css.png" alt="CSS" class="h-16">
-        <img src="../assets/Decrypt'eau/twig.png" alt="Twig" class="h-16">
-        <img src="../assets/Decrypt'eau/php.png" alt="PHP" class="h-16">
-        <img src="../assets/Decrypt'eau/bootstrap.png" alt="Bootstrap" class="w-16 h-16">
-        <img src="../assets/Decrypt'eau/js.png" alt="JavaScript" class="h-16">
+        <img src="../assets/Decrypteau/html.png" alt="HTML" class="w-16 h-16">
+        <img src="../assets/Decrypteau/css.png" alt="CSS" class="h-16">
+        <img src="../assets/Decrypteau/twig.png" alt="Twig" class="h-16">
+        <img src="../assets/Decrypteau/php.png" alt="PHP" class="h-16">
+        <img src="../assets/Decrypteau/bootstrap.png" alt="Bootstrap" class="w-16 h-16">
+        <img src="../assets/Decrypteau/js.png" alt="JavaScript" class="h-16">
       </div>
     </div>
 
@@ -64,7 +64,8 @@
   </section>
 </template>
 
-
+<script setup lang="ts" >
+</script>
 
 <style scoped>
 /* --- Animation pluie --- */
