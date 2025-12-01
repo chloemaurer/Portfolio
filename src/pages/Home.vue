@@ -1,5 +1,5 @@
 <template>
-  
+
   <div
     class="min-h-screen flex flex-col bg-gradient-to-b from-[#0b0b0d] to-[#1a1a2e] text-white font-inter scroll-smooth">
 
@@ -386,32 +386,32 @@
       © 2025 Chloé Maurer
     </footer>
 
-    
+
   </div>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+ 
 import { ref, onMounted } from "vue";
 import { devProjects, graphicProjects, marketingProjects } from "../js/projet.js";
-
+ 
 const contactForm = ref<HTMLFormElement | null>(null);
 const successMessage = ref("");
 const errorMessage = ref("");
-
+ 
 const sendForm = async () => {
   if (!contactForm.value) return;
   successMessage.value = "";
   errorMessage.value = "";
   const formData = new FormData(contactForm.value);
-
+ 
   try {
     const response = await fetch("https://formspree.io/f/xldoyqgy", {
       method: "POST",
       body: formData,
       headers: { Accept: "application/json" },
     });
-
+ 
     if (response.ok) {
       successMessage.value = "Message envoyé avec succès !";
       contactForm.value.reset();
@@ -421,7 +421,7 @@ const sendForm = async () => {
   } catch {
     errorMessage.value = "Impossible d’envoyer le message 😕";
   }
-
+ 
   setTimeout(() => {
     successMessage.value = "";
     errorMessage.value = "";
