@@ -12,6 +12,8 @@ import flyer from './pages/Flyer.vue'
 import festival from './pages/FestivalHaHa.vue'
 import infographie from './pages/infographie.vue'
 import UnityGame from './pages/Unity.vue'
+import Temple from './pages/EscapeTemple.vue'
+import Borne from './pages/Borne.vue'
 
 const routes = [
     { path: '/', component: Home },
@@ -27,6 +29,8 @@ const routes = [
     { path: '/festival', component: festival },
     { path: '/infographie', component: infographie },
     { path: '/unity', component: UnityGame },
+    { path: '/temple', component: Temple },
+    { path: '/borne', component: Borne },
 ]
 
 

@@ -11,12 +11,29 @@ export interface Project {
 
 export const devProjects: Project[] = [
   {
+    title: "Escape Game Inca",
+    description:
+      "Jeu vidéo Unity basé sur un Escape Game dans un univers Inca.",
+    tech: "Unity / C# / Blender",
+    link: "temple",
+    cover: "assets/Escapegame.png",
+    date: "Décembre 2025",
+  },
+  {
     title: "Jeu Unity",
     description: "Développement d’un jeu 3D avec thèmes évolutifs par niveau.",
     tech: "Unity / C# / Blender",
     link: "/unity",
     cover: "assets/unity/coverjeuunity.jpg",
     date: "mars 2025",
+  },
+  {
+    title: "Borne interactive - Sainte Félicité",
+    description: "Borne interactive pour accès à infos locales.",
+    tech: "En cours",
+    link: "borne",
+    cover: "assets/projects/borne.jpg",
+    date: "Décembre 2025",
   },
   {
     title: "Musée des années 70",
@@ -53,23 +70,6 @@ export const devProjects: Project[] = [
     link: "festival",
     cover: "assets/FestivalHaHa/cover.jpeg",
     date: "Aout 2025",
-  },
-  {
-    title: "Borne interactive - Sainte Félicité",
-    description: "Borne interactive pour accès à infos locales.",
-    tech: "En cours",
-    link: "",
-    cover: "assets/projects/borne.jpg",
-    date: "Pour décembre 2025",
-  },
-  {
-    title: "Escape Game Inca",
-    description:
-      "Jeu vidéo Unity basé sur un Escape Game dans un univers Inca.",
-    tech: "Unity / C# / Blender",
-    link: "",
-    cover: "assets/Escapegame.png",
-    date: "Pour décembre 2025",
   },
 ];
 
